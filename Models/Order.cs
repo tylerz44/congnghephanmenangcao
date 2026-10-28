@@ -29,6 +29,11 @@ namespace FashionStore.Models
 
         public UserAccount? User { get; set; }
 
+<<<<<<< HEAD
         public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+=======
+        public ICollection<OrderDetail> OrderDetails { get; set; }
+     = new List<OrderDetail>();
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
     }
 }

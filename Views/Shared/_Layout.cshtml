@@ -1,4 +1,14 @@
 ﻿@using Microsoft.AspNetCore.Http
+<<<<<<< HEAD
+=======
+@using FashionStore.Extensions
+@using FashionStore.Models
+@inject FashionStore.Data.AppDbContext _context
+
+@{
+    var setting = _context.Settings.FirstOrDefault();
+}
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -127,10 +137,29 @@
 
                     <a asp-controller="Cart"
                        asp-action="Index"
+<<<<<<< HEAD
                        class="btn btn-dark me-2">
 
                         🛒
 
+=======
+                       class="btn btn-dark position-relative me-2">
+
+                        🛒
+
+                        @{
+                            var cart = Context.Session.GetObject<Cart>("Cart");
+                            var count = cart?.Items.Sum(x => x.Quantity) ?? 0;
+                        }
+
+                        @if (count > 0)
+                        {
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                @count
+                            </span>
+                        }
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
                     </a>
 
                     @if (Context.Session.GetInt32("UserId") != null)
@@ -249,6 +278,7 @@
                     <p>Hotline: 1900 1234</p>
 
                 </div>
+<<<<<<< HEAD
 
                 <div class="col-md-4">
 
@@ -261,6 +291,22 @@
                     <p>TikTok</p>
 
                 </div>
+=======
+                @if (setting != null)
+                {
+                    <a href="@setting.Facebook" target="_blank">
+                        Facebook
+                    </a>
+
+                    <a href="@setting.Instagram" target="_blank">
+                        Instagram
+                    </a>
+
+                    <a href="@setting.TikTok" target="_blank">
+                        TikTok
+                    </a>
+                }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
 
             </div>
 

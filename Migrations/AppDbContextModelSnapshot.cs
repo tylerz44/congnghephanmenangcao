@@ -35,6 +35,12 @@ namespace FashionStore.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+<<<<<<< HEAD
+=======
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
@@ -87,6 +93,44 @@ namespace FashionStore.Migrations
                     b.ToTable("Orders");
                 });
 
+<<<<<<< HEAD
+=======
+            modelBuilder.Entity("FashionStore.Models.OrderDetail", b =>
+                {
+                    b.Property<int>("OrderDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailId"));
+
+                    b.Property<string>("Color")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Size")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("OrderDetailId");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderDetails");
+                });
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             modelBuilder.Entity("FashionStore.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -123,6 +167,12 @@ namespace FashionStore.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<decimal?>("SalePrice")
+                        .HasColumnType("decimal(18,2)");
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
                     b.Property<string>("Size")
                         .HasColumnType("nvarchar(max)");
 
@@ -165,6 +215,43 @@ namespace FashionStore.Migrations
                     b.ToTable("ProductVariants");
                 });
 
+<<<<<<< HEAD
+=======
+            modelBuilder.Entity("FashionStore.Models.Setting", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Facebook")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Instagram")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StoreName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TikTok")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Settings");
+                });
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             modelBuilder.Entity("FashionStore.Models.UserAccount", b =>
                 {
                     b.Property<int>("UserId")
@@ -205,6 +292,7 @@ namespace FashionStore.Migrations
                     b.ToTable("UserAccounts");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("OrderDetail", b =>
                 {
                     b.Property<int>("OrderDetailId")
@@ -240,6 +328,8 @@ namespace FashionStore.Migrations
                     b.ToTable("OrderDetails");
                 });
 
+=======
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             modelBuilder.Entity("FashionStore.Models.Order", b =>
                 {
                     b.HasOne("FashionStore.Models.UserAccount", "User")
@@ -251,6 +341,28 @@ namespace FashionStore.Migrations
                     b.Navigation("User");
                 });
 
+<<<<<<< HEAD
+=======
+            modelBuilder.Entity("FashionStore.Models.OrderDetail", b =>
+                {
+                    b.HasOne("FashionStore.Models.Order", "Order")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FashionStore.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             modelBuilder.Entity("FashionStore.Models.Product", b =>
                 {
                     b.HasOne("FashionStore.Models.Category", "Category")
@@ -273,6 +385,7 @@ namespace FashionStore.Migrations
                     b.Navigation("Product");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("OrderDetail", b =>
                 {
                     b.HasOne("FashionStore.Models.Order", "Order")
@@ -292,6 +405,8 @@ namespace FashionStore.Migrations
                     b.Navigation("Product");
                 });
 
+=======
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             modelBuilder.Entity("FashionStore.Models.Category", b =>
                 {
                     b.Navigation("Products");

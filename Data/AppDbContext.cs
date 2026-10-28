@@ -10,6 +10,10 @@ namespace FashionStore.Data
             : base(options)
         {
         }
+<<<<<<< HEAD
+=======
+        public DbSet<Setting> Settings { get; set; }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
         public DbSet<ProductVariant> ProductVariants { get; set; }
         public DbSet<Category> Categories { get; set; }
 

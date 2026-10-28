@@ -9,7 +9,11 @@ namespace FashionStore.Controllers
     public class CartController : Controller
     {
         private readonly AppDbContext _context;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
         public CartController(AppDbContext context)
         {
             _context = context;
@@ -19,7 +23,15 @@ namespace FashionStore.Controllers
         public IActionResult AddToCart(int id, string size, string color, int quantity)
         {
             var product = _context.Products.FirstOrDefault(x => x.ProductId == id);
+<<<<<<< HEAD
 
+=======
+            if (HttpContext.Session.GetInt32("UserId") == null)
+            {
+                TempData["Error"] = "Bạn cần đăng nhập để thêm sản phẩm vào giỏ hàng.";
+                return RedirectToAction("Login", "Account");
+            }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             if (product == null)
                 return NotFound();
 
@@ -53,7 +65,11 @@ namespace FashionStore.Controllers
                 {
                     ProductId = product.ProductId,
                     ProductName = product.ProductName,
+<<<<<<< HEAD
                     Price = product.Price,
+=======
+                    Price = product.SalePrice ?? product.Price,
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
                     Quantity = quantity,
                     Size = size,
                     Color = color,
@@ -71,6 +87,13 @@ namespace FashionStore.Controllers
         }
         public IActionResult Index()
         {
+<<<<<<< HEAD
+=======
+            if (HttpContext.Session.GetInt32("UserId") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             Cart cart = HttpContext.Session.GetObject<Cart>("Cart") ?? new Cart();
             return View(cart);
         }

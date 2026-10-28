@@ -174,9 +174,17 @@ namespace FashionStore.Controllers
         //=============================
         // SỬA SẢN PHẨM
         //=============================
+<<<<<<< HEAD
         public IActionResult Edit(int id)
         {
 
+=======
+        //=============================
+        // SỬA SẢN PHẨM (GET)
+        //=============================
+        public IActionResult Edit(int id)
+        {
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
             if (!IsAdmin())
             {
                 return RedirectToAction("Login", "Account");
@@ -196,13 +204,18 @@ namespace FashionStore.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public IActionResult Edit(Product product, IFormFile imageFile)
+=======
+        public IActionResult Edit(Product product, IFormFile? imageFile)
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
         {
             if (!IsAdmin())
             {
                 return RedirectToAction("Login", "Account");
             }
 
+<<<<<<< HEAD
             if (ModelState.IsValid)
             {
                 var oldProduct = _context.Products.Find(product.ProductId);
@@ -258,6 +271,63 @@ namespace FashionStore.Controllers
             ViewBag.Categories = _context.Categories.ToList();
 
             return View(product);
+=======
+            // Nếu ImageUrl không submit thì bỏ qua validate
+            ModelState.Remove("ImageUrl");
+
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Categories = _context.Categories.ToList();
+                return View(product);
+            }
+
+            var oldProduct = _context.Products.Find(product.ProductId);
+
+            if (oldProduct == null)
+            {
+                return NotFound();
+            }
+
+            oldProduct.ProductName = product.ProductName;
+            oldProduct.Description = product.Description;
+            oldProduct.Price = product.Price;
+            oldProduct.SalePrice = product.SalePrice;
+            oldProduct.Quantity = product.Quantity;
+            oldProduct.Brand = product.Brand;
+            oldProduct.Size = product.Size;
+            oldProduct.Color = product.Color;
+            oldProduct.CategoryId = product.CategoryId;
+            oldProduct.Gender = product.Gender;
+
+            // Chỉ cập nhật ảnh nếu có chọn ảnh mới
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                string fileName = Guid.NewGuid().ToString() +
+                                  Path.GetExtension(imageFile.FileName);
+
+                string uploadFolder = Path.Combine(_environment.WebRootPath, "images");
+
+                if (!Directory.Exists(uploadFolder))
+                {
+                    Directory.CreateDirectory(uploadFolder);
+                }
+
+                string filePath = Path.Combine(uploadFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    imageFile.CopyTo(stream);
+                }
+
+                oldProduct.ImageUrl = "/images/" + fileName;
+            }
+
+            _context.SaveChanges();
+
+            TempData["Success"] = "Cập nhật sản phẩm thành công.";
+
+            return RedirectToAction(nameof(Index));
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
         }
 
         //=============================

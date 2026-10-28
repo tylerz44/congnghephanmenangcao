@@ -237,11 +237,28 @@
                                                name="color"
                                                value="@((item.Color ?? "").Split(',').FirstOrDefault())" />
 
+<<<<<<< HEAD
                                         <button class="btn btn-warning w-100 mb-2">
 
                                             🛒 Thêm vào giỏ
 
                                         </button>
+=======
+                                        @if (Context.Session.GetInt32("UserId") != null)
+                                        {
+                                            <button class="btn btn-warning w-100 mb-2">
+                                                🛒 Thêm vào giỏ
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <a asp-controller="Account"
+                                               asp-action="Login"
+                                               class="btn btn-secondary w-100 mb-2">
+                                                Đăng nhập để mua
+                                            </a>
+                                        }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
 
                                     </form>
 

@@ -1,0 +1,547 @@
+C:\code\FashionStore\bin\Debug\net8.0\appsettings.Development.json
+C:\code\FashionStore\bin\Debug\net8.0\appsettings.json
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.staticwebassets.runtime.json
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.exe
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.deps.json
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.runtimeconfig.json
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore\bin\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore\bin\Debug\net8.0\Azure.Core.dll
+C:\code\FashionStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\code\FashionStore\bin\Debug\net8.0\Humanizer.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\code\FashionStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.CodeDom.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Memory.Data.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\code\FashionStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\code\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.csproj.AssemblyReference.cache
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfoInputs.cache
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfo.cs
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.csproj.CoreCompileInputs.cache
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.MvcApplicationPartsAssemblyInfo.cache
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cache
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cs
+C:\code\FashionStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\code\FashionStore\obj\Debug\net8.0\scopedcss\bundle\FashionStore.styles.css
+C:\code\FashionStore\obj\Debug\net8.0\scopedcss\projectbundle\FashionStore.bundle.scp.css
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\code\FashionStore\obj\Debug\net8.0\FashionS.76E34CF8.Up2Date
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore\obj\Debug\net8.0\refint\FashionStore.dll
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore\obj\Debug\net8.0\FashionStore.genruntimeconfig.cache
+C:\code\FashionStore\obj\Debug\net8.0\ref\FashionStore.dll
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.FashionStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.build.FashionStore.props
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FashionStore.props
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FashionStore.props
+C:\code\FashionStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.Development.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.staticwebassets.runtime.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.staticwebassets.endpoints.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.exe
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.deps.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.runtimeconfig.json
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.pdb
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Core.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Humanizer.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.CodeDom.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Memory.Data.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\WebNC\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.AssemblyReference.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfoInputs.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfo.cs
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.CoreCompileInputs.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.MvcApplicationPartsAssemblyInfo.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cs
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\bundle\FashionStore.styles.css
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\projectbundle\FashionStore.bundle.scp.css
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionS.76E34CF8.Up2Date
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.dll
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\refint\FashionStore.dll
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.pdb
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.genruntimeconfig.cache
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\ref\FashionStore.dll
+C:\WebNC\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.Development.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.staticwebassets.runtime.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.exe
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.deps.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.runtimeconfig.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Core.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Humanizer.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.CodeDom.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Memory.Data.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.AssemblyReference.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfoInputs.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfo.cs
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.CoreCompileInputs.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.MvcApplicationPartsAssemblyInfo.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cs
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.FashionStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.build.FashionStore.props
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FashionStore.props
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FashionStore.props
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\bundle\FashionStore.styles.css
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\projectbundle\FashionStore.bundle.scp.css
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionS.76E34CF8.Up2Date
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\refint\FashionStore.dll
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.genruntimeconfig.cache
+C:\code\FashionStore (2)\FashionStore\FashionStore\obj\Debug\net8.0\ref\FashionStore.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.Development.json
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\appsettings.json
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.staticwebassets.runtime.json
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.exe
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.deps.json
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.runtimeconfig.json
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Core.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Humanizer.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.CodeDom.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Memory.Data.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.AssemblyReference.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfoInputs.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.AssemblyInfo.cs
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.csproj.CoreCompileInputs.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.MvcApplicationPartsAssemblyInfo.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.RazorAssemblyInfo.cs
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.FashionStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.build.FashionStore.props
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FashionStore.props
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FashionStore.props
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\bundle\FashionStore.styles.css
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\scopedcss\projectbundle\FashionStore.bundle.scp.css
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionS.76E34CF8.Up2Date
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\refint\FashionStore.dll
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.pdb
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\FashionStore.genruntimeconfig.cache
+C:\code\FashionStore Final\FashionStore\FashionStore\obj\Debug\net8.0\ref\FashionStore.dll

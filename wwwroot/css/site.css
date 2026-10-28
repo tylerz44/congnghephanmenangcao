@@ -244,4 +244,18 @@ body {
 .active-size {
     background: #111;
     color: white;
+<<<<<<< HEAD
 }
+=======
+}
+.social-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+    .social-link:hover {
+        color: #ff4d4d;
+    }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4

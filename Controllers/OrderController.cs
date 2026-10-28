@@ -88,6 +88,55 @@ string payment)
 
             return View(orders);
         }
+<<<<<<< HEAD
+=======
+        public IActionResult Cancel(int id)
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var order = _context.Orders
+                                .Include(o => o.OrderDetails)
+                                .FirstOrDefault(o => o.OrderId == id &&
+                                                     o.UserId == userId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            // Chỉ được hủy khi chưa xác nhận
+            if (order.ShippingStatus != "Chờ xác nhận")
+            {
+                TempData["Error"] = "Đơn hàng đã được xác nhận nên không thể hủy.";
+                return RedirectToAction(nameof(History));
+            }
+
+            // Trả lại số lượng sản phẩm
+            foreach (var item in order.OrderDetails)
+            {
+                var product = _context.Products.Find(item.ProductId);
+
+                if (product != null)
+                {
+                    product.Quantity += item.Quantity;
+                }
+            }
+
+            _context.OrderDetails.RemoveRange(order.OrderDetails);
+            _context.Orders.Remove(order);
+
+            _context.SaveChanges();
+
+            TempData["Success"] = "Hủy đơn hàng thành công.";
+
+            return RedirectToAction(nameof(History));
+        }
+>>>>>>> 3dadca78ada52871d4e9b445449b617792ef3cc4
         public IActionResult Detail(int id)
         {
             var order = _context.Orders
