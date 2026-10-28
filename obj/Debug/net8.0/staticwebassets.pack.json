@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FashionStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FashionStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\08afd2af-c75f-463c-9e78-c6d1403a0404.jpg",
+      "PackagePath": "staticwebassets\\images\\08afd2af-c75f-463c-9e78-c6d1403a0404.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\0b657a25-5f32-471b-9aac-e4a65639f6dc.jpg",
+      "PackagePath": "staticwebassets\\images\\0b657a25-5f32-471b-9aac-e4a65639f6dc.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\0d712984-13c1-4f08-a483-d0b07439d93b.jpg",
+      "PackagePath": "staticwebassets\\images\\0d712984-13c1-4f08-a483-d0b07439d93b.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\274a731f-60a1-48c2-80f6-d7faf7901d58.jpg",
+      "PackagePath": "staticwebassets\\images\\274a731f-60a1-48c2-80f6-d7faf7901d58.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\27e4f387-14ef-4058-b85c-75094d2ff941.jpg",
+      "PackagePath": "staticwebassets\\images\\27e4f387-14ef-4058-b85c-75094d2ff941.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\2deb80df-a256-4ad8-b489-67c47211e9a1.jpg",
+      "PackagePath": "staticwebassets\\images\\2deb80df-a256-4ad8-b489-67c47211e9a1.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\34736300-eed1-4e89-a7d1-4efbac4f08a6.jpg",
+      "PackagePath": "staticwebassets\\images\\34736300-eed1-4e89-a7d1-4efbac4f08a6.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\38f3a9b6-6eba-4407-8805-dcf75c52411a.jpg",
+      "PackagePath": "staticwebassets\\images\\38f3a9b6-6eba-4407-8805-dcf75c52411a.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\3d4f52bd-49a3-4103-98e5-9b10c3e1701c.jpg",
+      "PackagePath": "staticwebassets\\images\\3d4f52bd-49a3-4103-98e5-9b10c3e1701c.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\42462590-ab78-43bf-9e31-2dab1267e5f3.jpg",
+      "PackagePath": "staticwebassets\\images\\42462590-ab78-43bf-9e31-2dab1267e5f3.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\4b7fbcb4-2e8e-409d-8942-67250624424b.png",
+      "PackagePath": "staticwebassets\\images\\4b7fbcb4-2e8e-409d-8942-67250624424b.png"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\51cab24c-7355-494a-8b20-bc033e645277.jpg",
+      "PackagePath": "staticwebassets\\images\\51cab24c-7355-494a-8b20-bc033e645277.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\596c31f7-4f87-430e-bb82-6d615db22004.jpg",
+      "PackagePath": "staticwebassets\\images\\596c31f7-4f87-430e-bb82-6d615db22004.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\59931ecd-9606-4847-9fec-2050655d8d80.jpg",
+      "PackagePath": "staticwebassets\\images\\59931ecd-9606-4847-9fec-2050655d8d80.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\5e9129de-1a0f-4df3-9507-114ac2bb3d5b.jpg",
+      "PackagePath": "staticwebassets\\images\\5e9129de-1a0f-4df3-9507-114ac2bb3d5b.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\704b5721-4818-475c-b6e2-9862ea6fdc50.jpg",
+      "PackagePath": "staticwebassets\\images\\704b5721-4818-475c-b6e2-9862ea6fdc50.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\731e75c5-da0b-4290-bc2c-98b8a067250c.jpg",
+      "PackagePath": "staticwebassets\\images\\731e75c5-da0b-4290-bc2c-98b8a067250c.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\7cb0a349-45ce-4abb-a2b4-2e4661a26956.jpg",
+      "PackagePath": "staticwebassets\\images\\7cb0a349-45ce-4abb-a2b4-2e4661a26956.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\8581fce5-7a68-4fec-b787-c543b3a515df.jpg",
+      "PackagePath": "staticwebassets\\images\\8581fce5-7a68-4fec-b787-c543b3a515df.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\89c3d6fe-f3bb-4ffa-8af0-5fa5c8161f2b.jpg",
+      "PackagePath": "staticwebassets\\images\\89c3d6fe-f3bb-4ffa-8af0-5fa5c8161f2b.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\8acc66fe-5bfb-4359-b699-99c95b44d7a9.jpg",
+      "PackagePath": "staticwebassets\\images\\8acc66fe-5bfb-4359-b699-99c95b44d7a9.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\91f19289-83eb-4c77-ae64-d3ab488fd229.jpg",
+      "PackagePath": "staticwebassets\\images\\91f19289-83eb-4c77-ae64-d3ab488fd229.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\99248684-a817-4527-a5fe-55d2f64fc074.jpg",
+      "PackagePath": "staticwebassets\\images\\99248684-a817-4527-a5fe-55d2f64fc074.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\99937414-24b0-4763-9eca-9cfec038800e.jpg",
+      "PackagePath": "staticwebassets\\images\\99937414-24b0-4763-9eca-9cfec038800e.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\9ddc3fb5-79b8-4929-88b3-6851790c7645.png",
+      "PackagePath": "staticwebassets\\images\\9ddc3fb5-79b8-4929-88b3-6851790c7645.png"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\ao5.jpg",
+      "PackagePath": "staticwebassets\\images\\ao5.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\b645c459-17f3-4e10-af8c-cea61c134ba9.jpg",
+      "PackagePath": "staticwebassets\\images\\b645c459-17f3-4e10-af8c-cea61c134ba9.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\c3c5644f-c2f2-4778-a3bf-96c28fce9d8c.jpg",
+      "PackagePath": "staticwebassets\\images\\c3c5644f-c2f2-4778-a3bf-96c28fce9d8c.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\category\\ao.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\ao.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\category\\giay.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\giay.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\category\\phukien.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\phukien.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\category\\quan.jpg",
+      "PackagePath": "staticwebassets\\images\\category\\quan.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\eac45bef-4e85-4082-9b13-c6908ee3a30a.png",
+      "PackagePath": "staticwebassets\\images\\eac45bef-4e85-4082-9b13-c6908ee3a30a.png"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\f082366a-6ccb-4671-a3fd-43417fcd77fe.jpg",
+      "PackagePath": "staticwebassets\\images\\f082366a-6ccb-4671-a3fd-43417fcd77fe.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\f97a6951-3ebb-41b7-8d57-2cad20030f90.jpg",
+      "PackagePath": "staticwebassets\\images\\f97a6951-3ebb-41b7-8d57-2cad20030f90.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\giay.jpg",
+      "PackagePath": "staticwebassets\\images\\giay.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\giay2.png",
+      "PackagePath": "staticwebassets\\images\\giay2.png"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\giay3.jpg",
+      "PackagePath": "staticwebassets\\images\\giay3.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\hoddie3.png",
+      "PackagePath": "staticwebassets\\images\\hoddie3.png"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\hoodie.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\hoodie2.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie2.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\mu.jpg",
+      "PackagePath": "staticwebassets\\images\\mu.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\nhan.jpg",
+      "PackagePath": "staticwebassets\\images\\nhan.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\quan1.jpg",
+      "PackagePath": "staticwebassets\\images\\quan1.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\quan2.jpg",
+      "PackagePath": "staticwebassets\\images\\quan2.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\quan3.jpg",
+      "PackagePath": "staticwebassets\\images\\quan3.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\thatlung.jpg",
+      "PackagePath": "staticwebassets\\images\\thatlung.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\tshirt.jpg",
+      "PackagePath": "staticwebassets\\images\\tshirt.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\images\\vongtay.jpg",
+      "PackagePath": "staticwebassets\\images\\vongtay.jpg"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\code\\FashionStore Final\\FashionStore\\FashionStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FashionStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FashionStore.props",
+      "PackagePath": "build\\FashionStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FashionStore.props",
+      "PackagePath": "buildMultiTargeting\\FashionStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FashionStore.props",
+      "PackagePath": "buildTransitive\\FashionStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,257 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.card {
+    transition: .3s;
+    border: none;
+}
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0,0,0,.2);
+    }
+
+    .card img {
+        height: 300px;
+        object-fit: cover;
+    }
+.banner-img {
+    filter: contrast(110%) brightness(105%);
+    image-rendering: auto;
+}
+
+.carousel-caption {
+    bottom: 25%;
+    background: rgba(0,0,0,.35);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+    .carousel-caption h1 {
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 25px;
+    }
+.hero-content {
+    background: rgba(0,0,0,.35);
+    padding: 70px;
+    border-radius: 20px;
+}
+    .hero h1 {
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+.product-card {
+    transition: .4s;
+    border: none;
+    overflow: hidden;
+}
+
+    .product-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    }
+
+    .product-card img {
+        height: 350px;
+        object-fit: cover;
+        transition: .4s;
+    }
+
+    .product-card:hover img {
+        transform: scale(1.08);
+    }
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+    .nav-link:hover {
+        color: #ff4d4f !important;
+    }
+
+.btn-light {
+    border: none;
+    font-size: 22px;
+}
+
+    .btn-light:hover {
+        background: #111;
+        color: white;
+    }
+.carousel {
+    margin-top: 0;
+}
+
+.banner-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+.navbar {
+    padding: 18px 0;
+    z-index: 9999;
+}
+.category-card {
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+    .category-card img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        transition: .4s;
+    }
+
+    .category-card:hover {
+        transform: translateY(-10px);
+    }
+
+        .category-card:hover img {
+            transform: scale(1.1);
+        }
+.filter-box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    position: sticky;
+    top: 100px;
+}
+
+.size-btn {
+    border: 1px solid #ddd;
+    background: white;
+    padding: 8px 15px;
+    margin: 4px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+    .size-btn:hover {
+        background: #111;
+        color: white;
+    }
+
+.color {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+.blue {
+    background: royalblue;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+    font-size: 14px;
+}
+.thumb {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+    .thumb:hover {
+        transform: scale(1.08);
+    }
+
+.color-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .quantity-box button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background: #111;
+        color: white;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+
+    .quantity-box input {
+        width: 60px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        height: 40px;
+    }
+
+.active-size {
+    background: #111;
+    color: white;
+}
+.social-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+    .social-link:hover {
+        color: #ff4d4d;
+    }

@@ -1,0 +1,172 @@
+﻿@model FashionStore.Models.Product
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm";
+}
+
+<h2 class="mb-4">Thêm sản phẩm</h2>
+
+<form asp-action="Create"
+      method="post"
+      enctype="multipart/form-data">
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Tên sản phẩm
+                </label>
+
+                <input asp-for="ProductName"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Danh mục
+                </label>
+
+                <select asp-for="CategoryId"
+                        class="form-select">
+
+                    @foreach (var c in ViewBag.Categories)
+                    {
+                        <option value="@c.CategoryId">
+                            @c.CategoryName
+                        </option>
+                    }
+
+                </select>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Thương hiệu
+                </label>
+
+                <input asp-for="Brand"
+                       class="form-control" />
+
+            </div>
+            <div class="mb-3">
+
+                <label asp-for="Gender" class="form-label">
+                    Giới tính
+                </label>
+
+                <select asp-for="Gender" class="form-select">
+
+                    <option value="">-- Chọn --</option>
+
+                    <option value="Nam">Nam</option>
+
+                    <option value="Nữ">Nữ</option>
+
+                </select>
+
+            </div>
+            <div class="mb-3">
+                <label>Giá khuyến mãi</label>
+
+                <input asp-for="SalePrice"
+                       class="form-control" />
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Giá
+                </label>
+
+                <input asp-for="Price"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Số lượng
+                </label>
+
+                <input asp-for="Quantity"
+                       class="form-control" />
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Size
+                </label>
+
+                <input asp-for="Size"
+                       class="form-control"
+                       placeholder="S,M,L,XL" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Màu
+                </label>
+
+                <input asp-for="Color"
+                       class="form-control"
+                       placeholder="Đen,Trắng,Xanh" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Mô tả
+                </label>
+
+                <textarea asp-for="Description"
+                          rows="5"
+                          class="form-control"></textarea>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Ảnh sản phẩm
+                </label>
+
+                <input type="file"
+                       name="imageFile"
+                       class="form-control" />
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="btn btn-success">
+
+        Lưu sản phẩm
+
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+
+        Quay lại
+
+    </a>
+
+</form>

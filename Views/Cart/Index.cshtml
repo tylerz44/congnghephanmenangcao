@@ -1,0 +1,149 @@
+﻿@model FashionStore.Models.Cart
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container mt-5">
+
+    <h2 class="mb-4">
+
+        🛒 Giỏ hàng của bạn
+
+    </h2>
+
+    <table class="table align-middle">
+
+        <thead>
+
+            <tr>
+
+                <th>Ảnh</th>
+
+                <th>Sản phẩm</th>
+
+                <th>Giá</th>
+
+                <th>SL</th>
+
+                <th>Tổng</th>
+
+                <th></th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+
+                <tr>
+
+                    <td>
+
+                        <img src="@item.ImageUrl"
+                             style="width:90px;height:90px;object-fit:cover;">
+
+                    </td>
+
+                    <td>
+
+                        <h5>@item.ProductName</h5>
+
+                        <p class="mb-1">
+                            <strong>Size:</strong> @item.Size
+                        </p>
+
+                        <p class="mb-0">
+                            <strong>Màu:</strong> @item.Color
+                        </p>
+
+                    </td>
+
+                    <td>
+
+                        @item.Price.ToString("N0") đ
+
+                    </td>
+
+                    <td>
+
+                        <div class="d-flex">
+
+                            <a asp-action="Decrease"
+                               asp-route-id="@item.ProductId"
+                               class="btn btn-outline-secondary">
+                                -
+                            </a>
+
+                            <input value="@item.Quantity"
+                                   class="form-control text-center"
+                                   style="width:60px"
+                                   readonly>
+
+                            <a asp-action="Increase"
+                               asp-route-id="@item.ProductId"
+                               class="btn btn-outline-secondary">
+                                +
+                            </a>
+
+                        </div>
+
+                    </td>
+
+                    <td>
+
+                        <b class="text-danger">
+
+                            @item.Total.ToString("N0") đ
+
+                        </b>
+
+                    </td>
+
+                    <td>
+
+                        <a asp-action="Remove"
+                           asp-route-id="@item.ProductId"
+                           class="btn btn-danger">
+                            🗑
+                        </a>
+
+                    </td>
+
+                </tr>
+
+            }
+
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <div class="text-end">
+
+        <h3>
+
+            Tổng cộng :
+
+            <span class="text-danger">
+
+                @Model.TotalPrice.ToString("N0")
+
+            </span>
+
+        </h3>
+
+        <a asp-controller="Checkout"
+           asp-action="Index"
+           class="btn btn-success btn-lg">
+
+            Thanh toán
+
+        </a>
+
+    </div>
+
+</div>
