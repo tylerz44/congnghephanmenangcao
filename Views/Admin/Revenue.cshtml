@@ -1,0 +1,25 @@
+﻿@model IEnumerable<FashionStore.Models.Order>
+
+@{
+	Layout = "_AdminLayout";
+}
+
+<h2>
+
+	💰 Doanh thu
+
+</h2>
+
+<div class="card">
+
+	<div class="card-body">
+
+		<h1 class="text-danger">
+
+			@Model.Sum(x => x.Total).ToString("N0") đ
+
+		</h1>
+
+	</div>
+
+</div>

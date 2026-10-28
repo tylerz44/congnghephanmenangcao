@@ -1,0 +1,117 @@
+﻿@model FashionStore.Models.Product
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-danger text-white">
+            <h3>Xóa sản phẩm</h3>
+        </div>
+
+        <div class="card-body">
+
+            <div class="alert alert-warning">
+                <h5>Bạn có chắc chắn muốn xóa sản phẩm này không?</h5>
+                <p class="mb-0">
+                    Sau khi xóa sẽ không thể khôi phục dữ liệu.
+                </p>
+            </div>
+
+            <div class="row">
+
+                <!-- Hình ảnh -->
+                <div class="col-md-4 text-center">
+
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img src="@Model.ImageUrl"
+                             class="img-fluid rounded shadow"
+                             style="max-height:300px;object-fit:cover;" />
+                    }
+                    else
+                    {
+                        <img src="https://placehold.co/300x300?text=No+Image"
+                             class="img-fluid rounded shadow" />
+                    }
+
+                </div>
+
+                <!-- Thông tin -->
+                <div class="col-md-8">
+
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th width="180">Mã sản phẩm</th>
+                            <td>@Model.ProductId</td>
+                        </tr>
+
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <td>@Model.ProductName</td>
+                        </tr>
+
+                        <tr>
+                            <th>Giá</th>
+                            <td class="text-danger fw-bold">
+                                @Model.Price.ToString("N0") VNĐ
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Số lượng</th>
+                            <td>@Model.Quantity</td>
+                        </tr>
+
+                        <tr>
+                            <th>Hãng</th>
+                            <td>@Model.Brand</td>
+                        </tr>
+
+                        <tr>
+                            <th>Danh mục</th>
+                            <td>
+                                @if (Model.Category != null)
+                                {
+                                    @Model.Category.CategoryName
+                                }
+                                else
+                                {
+                                    <span class="text-danger">
+                                        Chưa có danh mục
+                                    </span>
+                                }
+                            </td>
+                        </tr>
+
+                    </table>
+
+                    <form asp-action="Delete" method="post">
+
+                        <input asp-for="ProductId" type="hidden" />
+
+                        <button type="submit"
+                                class="btn btn-danger">
+                            Xác nhận xóa
+                        </button>
+
+                        <a asp-action="Index"
+                           class="btn btn-secondary">
+                            Hủy
+                        </a>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

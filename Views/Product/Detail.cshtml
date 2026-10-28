@@ -1,0 +1,223 @@
+﻿@model FashionStore.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-5">
+
+    <div class="row">
+
+        <!-- Ảnh -->
+
+        <div class="col-lg-6">
+
+            <img src="@Model.ImageUrl"
+                 id="mainImage"
+                 class="img-fluid rounded shadow-lg mb-3">
+
+            <div class="d-flex gap-3">
+
+                <img src="@Model.ImageUrl"
+                     class="thumb">
+
+                <img src="@Model.ImageUrl"
+                     class="thumb">
+
+                <img src="@Model.ImageUrl"
+                     class="thumb">
+
+            </div>
+
+        </div>
+
+        <!-- Thông tin -->
+
+        <div class="col-lg-6">
+
+            <h2>@Model.ProductName</h2>
+  
+
+            <div class="mb-2">
+
+                ⭐⭐⭐⭐⭐
+
+                <span class="text-muted">
+
+                    (125 đánh giá)
+
+                </span>
+
+            </div>
+
+            <h2 class="text-danger">
+
+                @Model.Price.ToString("N0") đ
+
+            </h2>
+
+            <hr>
+
+            <h5>Màu sắc</h5>
+      
+
+            <div class="mb-4">
+
+                @foreach (var c in (Model.Color ?? "").Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    <button type="button"
+                            class="color-btn"
+                            data-color="@c.Trim()">
+                        @c.Trim()
+                    </button>
+                }
+
+            </div>
+
+            <h5>Size</h5>
+
+
+
+            <div class="mb-4">
+
+                @foreach (var s in (Model.Size ?? "").Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    <button type="button"
+                            class="size-btn"
+                            data-size="@s.Trim()">
+                        @s.Trim()
+                    </button>
+                }
+
+            </div>
+
+            <h5>Số lượng</h5>
+
+            <div class="quantity-box mb-4">
+
+                <button onclick="minus()">-</button>
+
+                <input id="qty"
+                       value="1"
+                       readonly>
+
+                <button onclick="plus()">+</button>
+
+            </div>
+
+            <p>
+
+                <b>Còn:</b>
+
+                @Model.Quantity sản phẩm
+
+            </p>
+   
+            <div class="d-grid gap-3">
+
+                <form asp-controller="Cart"
+                      asp-action="AddToCart"
+                      method="post">
+
+                    <input type="hidden" name="id" value="@Model.ProductId" />
+
+                    <input type="hidden"
+                           id="selectedSize"
+                           name="size"
+                           value="@((Model.Size ?? "").Split(',', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault())" />
+
+                    <input type="hidden"
+                           id="selectedColor"
+                           name="color"
+                           value="@((Model.Color ?? "").Split(',', StringSplitOptions.RemoveEmptyEntries).FirstOrDefault())" />
+
+                    <input type="hidden"
+                           id="qtyInput"
+                           name="quantity"
+                           value="1" />
+
+                    <button class="btn btn-warning btn-lg w-100">
+
+                        🛒 Thêm vào giỏ
+
+                    </button>
+
+                </form>
+
+                <a asp-controller="Checkout"
+                   asp-action="Index"
+                   class="btn btn-dark btn-lg">
+
+                    ⚡ Mua ngay
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</div>
+@section Scripts {
+
+    <script>
+
+        document.querySelectorAll(".size-btn").forEach(btn => {
+
+            btn.onclick = function () {
+
+                document.getElementById("selectedSize").value = this.dataset.size;
+
+                document.querySelectorAll(".size-btn")
+                    .forEach(x => x.classList.remove("active-size"));
+
+                this.classList.add("active-size");
+
+            }
+
+        });
+
+        document.querySelectorAll(".color-btn").forEach(btn => {
+
+            btn.onclick = function () {
+
+                document.getElementById("selectedColor").value = this.dataset.color;
+
+                document.querySelectorAll(".color-btn")
+                    .forEach(x => x.classList.remove("active-color"));
+
+                this.classList.add("active-color");
+
+            }
+
+        });
+
+        function plus() {
+
+            let q = document.getElementById("qty");
+
+            q.value = parseInt(q.value) + 1;
+
+            document.getElementById("qtyInput").value = q.value;
+
+        }
+
+        function minus() {
+
+            let q = document.getElementById("qty");
+
+            if (parseInt(q.value) > 1) {
+
+                q.value = parseInt(q.value) - 1;
+
+                document.getElementById("qtyInput").value = q.value;
+
+            }
+
+        }
+
+    </script>
+
+}

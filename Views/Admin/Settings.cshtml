@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Cài đặt";
+}
+
+<div class="container-fluid">
+
+    <h2 class="mb-4">
+        ⚙️ Cài đặt hệ thống
+    </h2>
+
+    <form asp-action="Settings" method="post">
+
+        <div class="card shadow">
+
+            <div class="card-body">
+
+                <div class="mb-3">
+                    <label>Tên cửa hàng</label>
+                    <input name="StoreName"
+                           class="form-control"
+                           value="Fashion Store" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input name="Email"
+                           class="form-control"
+                           value="support@fashion.com" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Số điện thoại</label>
+                    <input name="Phone"
+                           class="form-control"
+                           value="19001234" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Địa chỉ</label>
+                    <textarea name="Address"
+                              class="form-control"
+                              rows="3">TP Hồ Chí Minh</textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label>Facebook</label>
+                    <input name="Facebook"
+                           class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label>Instagram</label>
+                    <input name="Instagram"
+                           class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label>TikTok</label>
+                    <input name="TikTok"
+                           class="form-control" />
+                </div>
+
+                <button class="btn btn-success">
+
+                    💾 Lưu thay đổi
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>

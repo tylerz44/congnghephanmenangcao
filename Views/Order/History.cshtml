@@ -1,0 +1,89 @@
+﻿@model IEnumerable<FashionStore.Models.Order>
+
+@{
+    ViewData["Title"] = "Lịch sử đơn hàng";
+}
+
+<h2 class="mb-4">📦 Lịch sử đơn hàng</h2>
+
+<table class="table table-bordered table-hover">
+
+    <thead class="table-dark">
+
+        <tr>
+
+            <th>Mã đơn</th>
+
+            <th>Ngày đặt</th>
+
+            <th>Người nhận</th>
+
+            <th>Tổng tiền</th>
+
+            <th>Thanh toán</th>
+
+            <th>Trạng thái</th>
+
+            <th></th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>#@item.OrderId</td>
+
+                <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+
+                <td>@item.ReceiverName</td>
+
+                <td>@item.Total.ToString("N0") đ</td>
+
+                <td>@item.PaymentMethod</td>
+
+                <td>
+
+                    @if (item.ShippingStatus == "Chờ xác nhận")
+                    {
+                        <span class="badge bg-warning">
+                            Chờ xác nhận
+                        </span>
+                    }
+                    else if (item.ShippingStatus == "Đang giao")
+                    {
+                        <span class="badge bg-primary">
+                            Đang giao
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">
+                            Đã giao
+                        </span>
+                    }
+
+                </td>
+
+                <td>
+
+                    <a asp-action="Detail"
+                       asp-route-id="@item.OrderId"
+                       class="btn btn-info">
+
+                        Chi tiết
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

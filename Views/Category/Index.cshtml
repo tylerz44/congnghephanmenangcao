@@ -1,0 +1,111 @@
+﻿@model IEnumerable<FashionStore.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh mục";
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between mb-3">
+
+        <h2>Danh sách danh mục</h2>
+
+        <a asp-action="Create" class="btn btn-success">
+            Thêm danh mục
+        </a>
+
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <table class="table table-bordered table-hover">
+
+        <thead class="table-dark">
+
+            <tr>
+
+                <th width="100">
+                    ID
+                </th>
+
+                <th>
+                    Tên danh mục
+                </th>
+
+                <th width="220">
+                    Thao tác
+                </th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            @if (!Model.Any())
+            {
+                <tr>
+
+                    <td colspan="3" class="text-center text-danger">
+
+                        Chưa có dữ liệu.
+
+                    </td>
+
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @item.CategoryId
+                        </td>
+
+                        <td>
+                            @item.CategoryName
+                        </td>
+
+                        <td>
+
+                            <a asp-action="Edit"
+                               asp-route-id="@item.CategoryId"
+                               class="btn btn-warning btn-sm">
+
+                                Sửa
+
+                            </a>
+
+                            <a asp-action="Delete"
+                               asp-route-id="@item.CategoryId"
+                               class="btn btn-danger btn-sm">
+
+                                Xóa
+
+                            </a>
+
+                        </td>
+
+                    </tr>
+                }
+            }
+
+        </tbody>
+
+    </table>
+
+</div>

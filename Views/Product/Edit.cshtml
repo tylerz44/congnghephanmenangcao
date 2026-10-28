@@ -1,0 +1,221 @@
+﻿@model FashionStore.Models.Product
+
+@{
+    ViewData["Title"] = "Cập nhật sản phẩm";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-warning text-dark">
+            <h3>Cập nhật sản phẩm</h3>
+        </div>
+        <div class="mb-3">
+            <label>Size</label>
+            <input asp-for="Size" class="form-control"
+                   placeholder="S,M,L,XL" />
+        </div>
+
+        <div class="mb-3">
+            <label>Màu</label>
+            <input asp-for="Color" class="form-control"
+                   placeholder="Đen,Trắng,Xanh" />
+        </div>
+        <div class="card-body">
+
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+                <input asp-for="ProductId" type="hidden" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="ProductName" class="form-label">
+                        Tên sản phẩm
+                    </label>
+
+                    <input asp-for="ProductName" class="form-control" />
+
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label">
+                        Giá
+                    </label>
+
+                    <input asp-for="Price" class="form-control" />
+
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="SalePrice"></label>
+
+                    <input asp-for="SalePrice"
+                           class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Quantity" class="form-label">
+                        Số lượng
+                    </label>
+
+                    <input asp-for="Quantity" class="form-control" />
+
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Brand" class="form-label">
+                        Hãng
+                    </label>
+
+                    <input asp-for="Brand" class="form-control" />
+
+                    <span asp-validation-for="Brand" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+
+                    <label asp-for="Gender" class="form-label">
+                        Giới tính
+                    </label>
+
+                    <select asp-for="Gender" class="form-select">
+
+                        <option value="Nam">Nam</option>
+
+                        <option value="Nữ">Nữ</option>
+
+                    </select>
+
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Size" class="form-label"></label>
+                    <input asp-for="Size"
+                           class="form-control"
+                           placeholder="S,M,L,XL" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Color" class="form-label"></label>
+                    <input asp-for="Color"
+                           class="form-control"
+                           placeholder="Đen,Trắng,Xanh" />
+                </div>
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Danh mục
+                    </label>
+
+                    <select asp-for="CategoryId" class="form-select">
+
+                        <option value="">-- Chọn danh mục --</option>
+
+                        @foreach (var item in ViewBag.Categories)
+                        {
+                            @if (item.CategoryId == Model.CategoryId)
+                            {
+                                <option value="@item.CategoryId" selected>
+                                    @item.CategoryName
+                                </option>
+                            }
+                            else
+                            {
+                                <option value="@item.CategoryId">
+                                    @item.CategoryName
+                                </option>
+                            }
+                        }
+
+                    </select>
+
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Hình ảnh hiện tại
+                    </label>
+
+                    <br />
+
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img id="preview"
+                             src="@Model.ImageUrl"
+                             class="img-thumbnail"
+                             style="width:250px;height:250px;object-fit:cover;" />
+                    }
+                    else
+                    {
+                        <img id="preview"
+                             src="https://placehold.co/250x250?text=No+Image"
+                             class="img-thumbnail"
+                             style="width:250px;height:250px;object-fit:cover;" />
+                    }
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Chọn ảnh mới
+                    </label>
+
+                    <input type="file"
+                           name="imageFile"
+                           class="form-control"
+                           accept="image/*"
+                           onchange="previewImage(event)" />
+
+                </div>
+
+                <div class="d-flex justify-content-between">
+
+                    <a asp-action="Index"
+                       class="btn btn-secondary">
+                        ← Quay lại
+                    </a>
+
+                    <button type="submit"
+                            class="btn btn-warning">
+                        💾 Lưu thay đổi
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        function previewImage(event)
+        {
+            var reader = new FileReader();
+
+            reader.onload = function ()
+            {
+                document.getElementById("preview").src = reader.result;
+            };
+
+            if (event.target.files.length > 0)
+            {
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+
+    </script>
+
+}

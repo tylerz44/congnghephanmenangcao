@@ -1,0 +1,61 @@
+﻿@model IEnumerable<FashionStore.Models.UserAccount>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<h2 class="mb-4">
+    👥 Quản lý khách hàng
+</h2>
+
+<table class="table table-hover table-bordered">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>SĐT</th>
+            <th>Địa chỉ</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.FullName</td>
+
+                <td>@item.Email</td>
+
+                <td>@item.Phone</td>
+
+                <td>@item.Address</td>
+
+                <td>
+                    @if (item.IsActive)
+                    {
+                        <a asp-action="ToggleUser"
+                           asp-route-id="@item.UserId"
+                           class="btn btn-danger btn-sm">
+                            Khóa
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-action="ToggleUser"
+                           asp-route-id="@item.UserId"
+                           class="btn btn-success btn-sm">
+                            Mở
+                        </a>
+                    }
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

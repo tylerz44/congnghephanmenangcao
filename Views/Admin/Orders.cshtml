@@ -1,0 +1,87 @@
+﻿@model IEnumerable<FashionStore.Models.Order>
+
+@{
+    ViewData["Title"] = "Quản lý đơn hàng";
+    Layout = "_AdminLayout";
+}
+
+<h2 class="mb-4">
+    📦 Quản lý đơn hàng
+</h2>
+
+<table class="table table-bordered table-hover">
+
+    <thead class="table-dark">
+        <tr>
+            <th>Mã</th>
+            <th>Khách</th>
+            <th>Ngày</th>
+            <th>Tổng tiền</th>
+            <th>Trạng thái</th>
+            <th width="220">Thao tác</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>#@item.OrderId</td>
+
+                <td>@item.ReceiverName</td>
+
+                <td>@item.OrderDate.ToString("dd/MM/yyyy")</td>
+
+                <td>@item.Total.ToString("N0") đ</td>
+
+                <td>
+
+                    @if (item.ShippingStatus == "Chờ xác nhận")
+                    {
+                        <span class="badge bg-warning">
+                            @item.ShippingStatus
+                        </span>
+                    }
+                    else if (item.ShippingStatus == "Đang giao")
+                    {
+                        <span class="badge bg-primary">
+                            @item.ShippingStatus
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">
+                            @item.ShippingStatus
+                        </span>
+                    }
+
+                </td>
+
+                <td>
+
+                    <a asp-action="OrderDetail"
+                       asp-route-id="@item.OrderId"
+                       class="btn btn-info btn-sm">
+
+                        👁 Chi tiết
+
+                    </a>
+
+                    <a asp-action="UpdateOrder"
+                       asp-route-id="@item.OrderId"
+                       class="btn btn-success btn-sm">
+
+                        🔄 Cập nhật
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

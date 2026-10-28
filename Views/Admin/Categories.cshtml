@@ -1,0 +1,74 @@
+﻿@model IEnumerable<FashionStore.Models.Category>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between mb-3">
+
+    <h2>📂 Quản lý danh mục</h2>
+
+    <a asp-controller="Category"
+       asp-action="Create"
+       class="btn btn-success">
+
+        + Thêm danh mục
+
+    </a>
+
+</div>
+
+<table class="table table-bordered">
+
+    <thead class="table-dark">
+
+        <tr>
+
+            <th>ID</th>
+
+            <th>Tên danh mục</th>
+
+            <th></th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.CategoryId</td>
+
+                <td>@item.CategoryName</td>
+
+                <td>
+
+                    <a asp-controller="Category"
+                       asp-action="Edit"
+                       asp-route-id="@item.CategoryId"
+                       class="btn btn-primary btn-sm">
+
+                        Sửa
+
+                    </a>
+
+                    <a asp-controller="Category"
+                       asp-action="Delete"
+                       asp-route-id="@item.CategoryId"
+                       class="btn btn-danger btn-sm">
+
+                        Xóa
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

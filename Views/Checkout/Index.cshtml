@@ -1,0 +1,202 @@
+﻿@model FashionStore.Models.ViewModels.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Thanh toán";
+}
+
+<div class="container mt-5">
+
+    <div class="row">
+
+        <!-- Thông tin giao hàng -->
+
+        <div class="col-lg-7">
+
+            <div class="card shadow">
+
+                <div class="card-body">
+
+                    <h3 class="mb-4">
+                        🚚 Thông tin giao hàng
+                    </h3>
+
+                    <form asp-action="Index" method="post">
+
+                        @Html.AntiForgeryToken()
+
+                        <div asp-validation-summary="ModelOnly"
+                             class="text-danger mb-3">
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label asp-for="ReceiverName"
+                                   class="form-label">
+                            </label>
+
+                            <input asp-for="ReceiverName"
+                                   class="form-control" />
+
+                            <span asp-validation-for="ReceiverName"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label asp-for="ReceiverPhone"
+                                   class="form-label">
+                            </label>
+
+                            <input asp-for="ReceiverPhone"
+                                   class="form-control" />
+
+                            <span asp-validation-for="ReceiverPhone"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label asp-for="ShippingAddress"
+                                   class="form-label">
+                            </label>
+
+                            <textarea asp-for="ShippingAddress"
+                                      class="form-control"
+                                      rows="3"></textarea>
+
+                            <span asp-validation-for="ShippingAddress"
+                                  class="text-danger">
+                            </span>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label asp-for="Note"
+                                   class="form-label">
+                            </label>
+
+                            <textarea asp-for="Note"
+                                      class="form-control"
+                                      rows="3"></textarea>
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label asp-for="PaymentMethod"
+                                   class="form-label">
+                            </label>
+
+                            <select asp-for="PaymentMethod"
+                                    class="form-select">
+
+                                <option value="COD">
+                                    Thanh toán khi nhận hàng (COD)
+                                </option>
+
+                                <option value="Momo">
+                                    Ví MoMo
+                                </option>
+
+                                <option value="ZaloPay">
+                                    ZaloPay
+                                </option>
+
+                                <option value="VNPay">
+                                    VNPay
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-success btn-lg w-100">
+
+                            ✅ Xác nhận đặt hàng
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Đơn hàng -->
+
+        <div class="col-lg-5">
+
+            <div class="card shadow">
+
+                <div class="card-body">
+
+                    <h4 class="mb-3">
+
+                        🛒 Đơn hàng của bạn
+
+                    </h4>
+
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Tạm tính</span>
+
+                        <strong class="text-danger">
+
+                            @ViewBag.Total.ToString("N0") đ
+
+                        </strong>
+
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+
+                        <span>Phí vận chuyển</span>
+
+                        <span class="text-success">
+
+                            Miễn phí
+
+                        </span>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+
+                        <h4>Tổng cộng</h4>
+
+                        <h3 class="text-danger">
+                            @(((decimal?)ViewBag.Total ?? 0).ToString("N0")) đ
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

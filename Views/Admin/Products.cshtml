@@ -1,0 +1,101 @@
+﻿@model IEnumerable<FashionStore.Models.Product>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between mb-4">
+
+    <h2>
+
+        👕 Quản lý sản phẩm
+
+    </h2>
+
+    <a asp-controller="Product"
+       asp-action="Create"
+       class="btn btn-success">
+
+        + Thêm sản phẩm
+
+    </a>
+
+</div>
+
+<table class="table table-bordered table-hover">
+
+    <thead class="table-dark">
+
+        <tr>
+
+            <th>ID</th>
+
+            <th>Ảnh</th>
+
+            <th>Tên</th>
+
+            <th>Giá</th>
+
+            <th>Tồn kho</th>
+
+            <th>Danh mục</th>
+
+            <th></th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+
+                <td>@item.ProductId</td>
+
+                <td>
+
+                    <img src="@item.ImageUrl"
+                         style="width:80px;height:80px;object-fit:cover">
+
+                </td>
+
+                <td>@item.ProductName</td>
+
+                <td>@item.Price.ToString("N0") đ</td>
+
+                <td>@item.Quantity</td>
+
+                <td>@item.Category?.CategoryName</td>
+
+                <td>
+
+                    <a asp-controller="Product"
+                       asp-action="Edit"
+                       asp-route-id="@item.ProductId"
+                       class="btn btn-primary btn-sm">
+
+                        Sửa
+
+                    </a>
+
+                    <a asp-controller="Product"
+                       asp-action="Delete"
+                       asp-route-id="@item.ProductId"
+                       class="btn btn-danger btn-sm">
+
+                        Xóa
+
+                    </a>
+
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>

@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Tài khoản";
+}
+
+<h2>Tài khoản của tôi</h2>
+
+<hr>
+
+<p>
+    Xin chào
+    <b>@Context.Session.GetString("UserName")</b>
+</p>
+
+<a asp-action="Logout" class="btn btn-danger">
+    Đăng xuất
+</a>

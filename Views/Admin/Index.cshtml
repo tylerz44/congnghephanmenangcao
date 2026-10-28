@@ -1,0 +1,139 @@
+﻿<div class="container-fluid">
+
+    <div class="row">
+
+        <!-- Sidebar -->
+
+        <div class="col-lg-2 bg-dark min-vh-100">
+
+            <h3 class="text-white text-center py-4">
+
+                ADMIN
+
+            </h3>
+
+            <a asp-controller="Admin"
+               asp-action="Index"
+               class="btn btn-dark w-100 text-start">
+
+                📊 Dashboard
+
+            </a>
+
+            <a asp-controller="Product"
+               asp-action="Index"
+               class="btn btn-dark w-100 text-start">
+
+                👕 Sản phẩm
+
+            </a>
+
+            <a asp-controller="Category"
+               asp-action="Index"
+               class="btn btn-dark w-100 text-start">
+
+                📂 Danh mục
+
+            </a>
+
+            <a asp-controller="Order"
+               asp-action="Admin"
+               class="btn btn-dark w-100 text-start">
+
+                📦 Đơn hàng
+
+            </a>
+
+            <a asp-controller="User"
+               asp-action="Index"
+               class="btn btn-dark w-100 text-start">
+
+                👥 Khách hàng
+
+            </a>
+
+        </div>
+
+        <!-- Nội dung -->
+
+        <div class="col-lg-10 p-4">
+
+            <h2>Dashboard</h2>
+
+            <div class="row mt-4">
+
+                <div class="col-md-3">
+
+                    <div class="card shadow">
+
+                        <div class="card-body text-center">
+
+                            <h5>Sản phẩm</h5>
+
+                            <h2>@ViewBag.TotalProduct</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card shadow">
+
+                        <div class="card-body text-center">
+
+                            <h5>Khách hàng</h5>
+
+                            <h2>@ViewBag.TotalCustomer</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card shadow">
+
+                        <div class="card-body text-center">
+
+                            <h5>Đơn hàng</h5>
+
+                            <h2>@ViewBag.TotalOrder</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card shadow">
+
+                        <div class="card-body text-center">
+
+                            <h5>Doanh thu</h5>
+
+                            <h4 class="text-danger">
+
+                                @(((decimal)ViewBag.TotalRevenue).ToString("N0")) đ
+
+                            </h4>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
